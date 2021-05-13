@@ -17,7 +17,7 @@ The following packages are required to build these locales.
 
 ### Fedora Linux
 
-* glibc-locale-source
+    sudo dnf install glibc-locale-source
 
 ## Building
 
