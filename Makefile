@@ -1,4 +1,6 @@
-all: en_CA en_GB en_US
+all: install
+
+install: en_CA en_GB en_US
 
 en_CA:
 	localedef -c -i $@ -f ISO-8859-1 --no-archive $@
@@ -18,4 +20,4 @@ en_US:
 	localedef -c -i $@ -f UTF-8 --no-archive $@.utf8
 	localedef --add-to-archive --replace /usr/lib/locale/$@.utf8
 
-.PHONY: all en_CA en_GB en_US
+.PHONY: all install en_CA en_GB en_US

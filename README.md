@@ -1,9 +1,9 @@
-# ISO locales for Linux
+# ISO 8601 locales for Linux
 
 I like the [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) date format, but none of the main
 English locales fully support it. This repo patches some of them to use that format.
 
-The main keys I'm changing are `d_t_fmt`, `d_fmt`, and `t_fmt` as follows:
+The keys I'm changing are `d_t_fmt`, `d_fmt`, and `t_fmt` as follows:
 
     d_t_fmt: "%F %T %z"
     d_fmt:   "%F"
@@ -21,7 +21,7 @@ The following packages are required to build these locales.
 
 ## Building
 
-Running `sudo make` will install the files into the appropriate places in your filesystem.
+Running `sudo make install` will install the files into the appropriate places in your filesystem.
 
 Feel free to check the [Makefile](Makefile) to ensure it is not doing anything unexpected.
 
