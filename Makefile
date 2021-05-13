@@ -1,4 +1,5 @@
-all: install
+all:
+	@echo "Run 'sudo make install' to install the updated locales."
 
 install: en_CA en_GB en_US
 
