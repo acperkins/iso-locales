@@ -26,4 +26,4 @@ Running `sudo make install` will install the files into the appropriate places i
 Feel free to check the [Makefile](Makefile) to ensure it is not doing anything unexpected.
 
 Note that this will overwrite your operating system's locale files. Updates to **glibc** or
-associated packages may revert these changes. If that happens, simply run `sudo make` again.
+associated packages may revert these changes. If that happens, simply run `sudo make install` again.
