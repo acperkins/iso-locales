@@ -106,7 +106,7 @@ mon	"January";/
 	"November";/
 	"December"
 % Appropriate date and time representation (%c)
-d_t_fmt "%F %T %z"
+d_t_fmt "%FT%T%z"
 %
 % Appropriate date representation (%x)
 d_fmt   "%F"
