@@ -129,7 +129,6 @@ am_pm	"";""
 %
 % ISO starts the week on Monday.
 first_weekday 2
-first_workday 2
 END LC_TIME
 
 LC_MESSAGES
