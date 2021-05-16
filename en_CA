@@ -120,8 +120,8 @@ d_t_fmt     "%F %T %z"
 date_fmt    "%a %d %b %Y %r %Z"
 d_fmt       "%F"
 t_fmt       "%T"
-am_pm       "AM";"PM"
-t_fmt_ampm  "%I:%M:%S %p"
+am_pm       "";""
+t_fmt_ampm  ""
 week 7;19971130;4
 first_weekday 2
 first_workday 2
