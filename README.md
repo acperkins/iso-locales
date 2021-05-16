@@ -3,11 +3,15 @@
 I like the [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) date format, but none of the main
 English locales fully support it. This repo patches some of them to use that format.
 
-The keys I'm changing are `d_t_fmt`, `d_fmt`, and `t_fmt` as follows:
+The keys I'm changing are as follows:
 
-    d_t_fmt: "%F %T %z"
-    d_fmt:   "%F"
-    t_fmt:   "%T"
+    d_t_fmt       "%FT%T%z"
+    d_fmt         "%F"
+    t_fmt         "%T"
+    am_pm         "";""
+    t_fmt_ampm    ""
+    week          7;19971130;4
+    first_weekday 2
 
 The format commands `%F`, `%T`, and `%z` come from [strftime(3)](http://man.openbsd.org/strftime.3).
 
